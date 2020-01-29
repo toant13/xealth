@@ -12,6 +12,23 @@ Output: [‘b’, ‘a’, ‘c’]
 
 Please include Test Cases
 
+### When Running App
+
+Upon running the app, you will be prompted the following:
+
+```
+How many words would you like to enter? 3
+Ok, great! 3. Make sure to enter words in sort alphabetical order
+
+Enter word  1: bca
+Enter word  2: aaa
+Enter word  3: acb
+
+List of words sorted in alphabetical order: [ 'bca', 'aaa', 'acb' ]
+Ordering of the alphabet:                   [ 'b', 'a', 'c' ]
+
+```
+
 
 ## Running Locally
 

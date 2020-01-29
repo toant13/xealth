@@ -26,14 +26,14 @@ async function getInput() {
     const word = await getUserInput(`Enter word  ${i}:`);
     wordsList.push(word);
   }
-  console.log('list of words sorted in alphabetical order:', wordsList);
+  console.log('\nList of words sorted in alphabetical order:', wordsList);
   return wordsList;
 }
 
 async function main() {
   const wordsList = await getInput();
   const output = getAlphabetOrderingFrom(wordsList);
-  console.log('ordering of the alphabet:', output);
+  console.log('Ordering of the alphabet:                  ', output);
 }
 
 main().then(() => { process.exit(); });
